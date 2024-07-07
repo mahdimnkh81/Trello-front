@@ -1,0 +1,111 @@
+.innertag {
+    font-family: 'Arial', sans-serif;
+    /*background-color: #f0f0f0;*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.profile-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.profile-info p strong {
+    color: #333;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.logout-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.logout-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.edit-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.edit-form h2 {
+    text-align: center;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.edit-form button:hover {
+    background-color: #0056b3;
+}

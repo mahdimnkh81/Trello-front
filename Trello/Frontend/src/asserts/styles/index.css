@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .card {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: move;
+  }
+  .add-card-form {
+    margin-top: 10px;
+  }
+  
+  .add-card-form input {
+    width: calc(100% - 60px);
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-card-form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-card-form button:hover {
+    background-color: #0056b3;
+  }
